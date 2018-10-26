@@ -25,3 +25,15 @@ water_status(6,hot)
 water_status(7,hot)
 water_status(8,hot)
 water_status(9,hot)
+
+class Student
+attr_accessor :first_name, :last_name, :primary_phone_number
+
+    def introduction
+        puts "Hello #{first_name}"
+    end
+end
+
+frank = Student.new
+frank.first_name = "Frank"
+frank.introduction
