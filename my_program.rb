@@ -37,3 +37,8 @@ end
 frank = Student.new
 frank.first_name = "Frank"
 frank.introduction('Katarina')
+
+puts "Hello there! What is your name?"
+name = gets.chomp
+puts "Your name is " + name + "?"
+puts "Nice to meet you #{name} :)"
