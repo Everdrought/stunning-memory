@@ -1,0 +1,4 @@
+{:people[o:Person	:
+@nameI"	Fred:ET:	@jobI"Janitor;T:@genderI"	Male;T:	@ageI"19;To;	;I"
+Steve;T;	I"Janitor;T;
+I"	Male;T;I"41;T
