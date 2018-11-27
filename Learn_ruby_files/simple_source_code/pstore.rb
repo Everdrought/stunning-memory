@@ -21,3 +21,12 @@ store.transaction do
     store[:people] << fred
     store[:people] << steve
 end
+people = []
+
+store.transaction do
+people = store[:people]
+end
+
+people.each do |person|
+    puts person.name
+end
