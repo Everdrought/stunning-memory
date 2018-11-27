@@ -14,4 +14,8 @@ laura.age = "32"
 require "yaml"
 
 test_data = [fred,laura]
-puts test_data.to_yaml
+yaml_string = test_data.to_yaml
+
+yaml_data = YAML.load(yaml_string)
+puts yaml_data[0].name
+puts yaml_data[1].name
